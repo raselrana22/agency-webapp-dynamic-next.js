@@ -2,7 +2,7 @@ import './globals.css'
 import { Inter, Roboto, Poppins } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
-const poppins = Poppins({ subsets: ['latin'], weight: '700' })
+const poppins = Poppins({ subsets: ['latin'], weight: ['500', '700'], })
 
 export const metadata = {
   title: 'Create Next App',

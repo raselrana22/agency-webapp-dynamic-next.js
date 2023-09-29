@@ -25,3 +25,82 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
+.heroTextHeadline {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.heroTextNormal {
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.heroButton {
+  font-family: Poppins;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  background-color: #20b15a;
+  border-radius: 16px;
+  gap: 10px;
+  text-align: left;
+}
+
+.workListSimple {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #20b15a;
+}
+
+.workListText {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card {
+  width: 380px;
+  height: 415px;
+  padding: 50px, 30px, 50px, 30px;
+}
+
+.cardTextTitle {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.cardTextSimple {
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.stateCard {
+  width: 200px;
+  height: 290px;
+}
