@@ -6,7 +6,7 @@ export default async function Partners() {
 
   return (
     <div
-      className='h-[120px] bg-[#F8FFF9] mt-[50px] pl-[102px] pr-[102px]
+      className='h-[120px] bg-[#F8FFF9] mt-[50px] px-[105px]
     flex items-center'
     >
       <div className='w-full flex items-center justify-between gap-[30px]'>

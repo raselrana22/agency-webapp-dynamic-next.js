@@ -1,9 +1,16 @@
 export default function Footer() {
   return (
-    <footer className='footer p-10 bg-[#000000] text-[#FFFFFF]'>
-      <nav>
-        <header className='footer-title'>Social</header>
-        <div className='grid grid-flow-col gap-4'>
+    <footer className='footer px-[105px] py-[30px] bg-[#000000] text-[#FFFFFF] '>
+      <nav className='w-[300px]'>
+        <div className='brandLogo'>
+          <span className='text-[#FFFFFF]'>Design</span>
+          <span className='text-[#F55F1D]'>AGENCY</span>
+        </div>
+        <div>
+          Some footer text about the Agency. Just a little description to help
+          people understand you better
+        </div>
+        <div className='grid grid-flow-col gap-4 pt-3'>
           <a>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -38,15 +45,16 @@ export default function Footer() {
             </svg>
           </a>
         </div>
+        <div className='pt-5'>Copyright Design Agency 2022</div>
       </nav>
-      <nav>
+      <nav className=''>
         <header className='footer-title'>Services</header>
         <a className='link link-hover'>Branding</a>
         <a className='link link-hover'>Design</a>
         <a className='link link-hover'>Marketing</a>
         <a className='link link-hover'>Advertisement</a>
       </nav>
-      <nav>
+      <nav className=''>
         <header className='footer-title'>Company</header>
         <a className='link link-hover'>About us</a>
         <a className='link link-hover'>Contact</a>

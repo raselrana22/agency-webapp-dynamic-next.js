@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Menu() {
   return (
-    <div className='max-w-[--screen-width] h-[80px] flex items-center justify-between top-[15px] px-[100px] py-[5px]'>
+    <div className='max-w-[--screen-width] h-[80px] flex items-center justify-between top-[15px] px-[105px] py-[15px]'>
       <div className='brandLogo'>
         <div className='p-[10px]'>
           <span className='text-[#000000]'>Design</span>
