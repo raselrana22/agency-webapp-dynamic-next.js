@@ -5,7 +5,7 @@ export default async function FeaturedProject() {
   const projects = await featuredProjects();
   return (
     <>
-      <div className='bg-[#F0FDF4] px-[105px] py-[40px] '>
+      <div className='bg-[#F0FDF4] max-w-[--screen-width] px-[105px] py-[40px] '>
         <div className='w-[495px] '>
           <p className='workListSimple uppercase'>Featured Project</p>
           <p className='workListText capitalize pt-[15px]'>

@@ -1,6 +1,6 @@
 export default function SubscriberSection() {
   return (
-    <div className='h-[380px] bg-[#FFFFFF] flex items-center justify-center'>
+    <div className='max-w-[--screen-width] h-[380px] bg-[#FFFFFF] flex items-center justify-center'>
       <div className='h-[280px] w-[400px] text-center'>
         <div className='p-3 '>
           <div className='text-[#20B15A] flex justify-center'>SUBSCRIBE</div>

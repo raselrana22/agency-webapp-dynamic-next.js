@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WorkList() {
   return (
-    <div className='bg-[#FFFFFF] px-[105px] pt-[40px] '>
+    <div className='bg-[#FFFFFF] max-w-[--screen-width] px-[105px] pt-[40px] '>
       <div className='w-[495px]'>
         <p className='workListSimple uppercase'>work list</p>
         <p className='workListText capitalize pt-[15px]'>

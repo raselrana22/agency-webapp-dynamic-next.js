@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className='footer px-[105px] py-[30px] bg-[#000000] text-[#FFFFFF] '>
+    <footer className='footer max-w-[--screen-width] px-[105px] py-[30px] bg-[#000000] text-[#FFFFFF] '>
       <nav className='w-[300px]'>
         <div className='brandLogo'>
           <span className='text-[#FFFFFF]'>Design</span>
