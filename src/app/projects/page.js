@@ -1,5 +1,14 @@
+import Footer from "@/components/Footer";
+import ProjectsHeros from "@/components/ProjectsHeros";
+import ServiceHeros from "@/components/ServiceHeros";
+import SubscriberSection from "@/components/SubscriberSection";
+
 export default function Projects() {
     return (
-        <>Hello world</>
+        <div>
+            <ProjectsHeros />
+            <SubscriberSection />
+            <Footer />
+        </div>
     )
 }
