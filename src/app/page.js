@@ -3,7 +3,7 @@ import Footer from "@/components/Footer"
 import Heros from "@/components/Heros"
 import States from "@/components/States"
 import WorkList from "@/components/WorkList"
-import SubscriberSection from "@/components/subscriberSection"
+import SubscriberSection from "@/components/SubscriberSection"
 
 export default function Home() {
   return (
