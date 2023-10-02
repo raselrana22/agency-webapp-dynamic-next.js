@@ -111,11 +111,9 @@ To run the Agency Web App locally, follow these steps:
 
 2. Change the project directory:
 
-   ````bash
+   ```bash
    cd agency-webapp-nextjs
-      ```
-
-   ````
+   ```
 
 3. Install the dependency:
 
