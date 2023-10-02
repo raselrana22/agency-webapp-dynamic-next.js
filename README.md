@@ -48,9 +48,20 @@ To run the Agency Web App locally, follow these steps:
    git clone https://github.com/your-username/agency-webapp-nextjs.git
    ```
 
-2. Change the project directory: cd agency-webapp-nextjs
-3. Install the dependency: npm install
+2. Change the project directory:
 
-One the installation is complete. You can run the development server: npm run dev
+   ````bash
+   cd agency-webapp-nextjs
+      ```
+
+   ````
+
+3. Install the dependency:
+
+   ```bash
+   npm install
+   ```
+
+   One the installation is complete. You can run the development server: npm run dev
 
 The website will be accessible at http://localhost:3000.
